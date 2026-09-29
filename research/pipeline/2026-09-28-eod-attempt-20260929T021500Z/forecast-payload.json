@@ -1,0 +1,146 @@
+{
+  "created_at": "2026-09-29T02:49:28.758449Z",
+  "forecast_id": "2026-09-28-eod-attempt-20260929T021500Z-next-day-v1",
+  "predictions": [
+    {
+      "asset": "X:QNTUSD",
+      "rank_score": 0.8166666666666667,
+      "score": 0.6333333333333333
+    },
+    {
+      "asset": "X:HBARUSD",
+      "rank_score": 0.7895833333333333,
+      "score": 0.5791666666666666
+    },
+    {
+      "asset": "X:NEARUSD",
+      "rank_score": 0.7854166666666667,
+      "score": 0.5708333333333333
+    },
+    {
+      "asset": "X:SUIUSD",
+      "rank_score": 0.7041666666666666,
+      "score": 0.4083333333333332
+    },
+    {
+      "asset": "X:ALGOUSD",
+      "rank_score": 0.6354166666666666,
+      "score": 0.27083333333333326
+    },
+    {
+      "asset": "X:ONDOUSD",
+      "rank_score": 0.6208333333333333,
+      "score": 0.2416666666666667
+    },
+    {
+      "asset": "X:LTCUSD",
+      "rank_score": 0.6208333333333333,
+      "score": 0.2416666666666667
+    },
+    {
+      "asset": "X:XLMUSD",
+      "rank_score": 0.6104166666666667,
+      "score": 0.22083333333333344
+    },
+    {
+      "asset": "X:LINKUSD",
+      "rank_score": 0.56875,
+      "score": 0.13749999999999996
+    },
+    {
+      "asset": "X:ENAUSD",
+      "rank_score": 0.5625,
+      "score": 0.125
+    },
+    {
+      "asset": "X:AVAXUSD",
+      "rank_score": 0.5583333333333333,
+      "score": 0.1166666666666667
+    },
+    {
+      "asset": "X:AEROUSD",
+      "rank_score": 0.5333333333333333,
+      "score": 0.06666666666666665
+    },
+    {
+      "asset": "X:SOLUSD",
+      "rank_score": 0.525,
+      "score": 0.050000000000000044
+    },
+    {
+      "asset": "X:ETHUSD",
+      "rank_score": 0.45208333333333334,
+      "score": -0.09583333333333333
+    },
+    {
+      "asset": "X:UNIUSD",
+      "rank_score": 0.42500000000000004,
+      "score": -0.1499999999999999
+    },
+    {
+      "asset": "X:USTUSD",
+      "rank_score": 0.4041666666666667,
+      "score": -0.19166666666666665
+    },
+    {
+      "asset": "X:BTCUSD",
+      "rank_score": 0.4020833333333333,
+      "score": -0.19583333333333341
+    },
+    {
+      "asset": "X:ZECUSD",
+      "rank_score": 0.39166666666666666,
+      "score": -0.21666666666666667
+    },
+    {
+      "asset": "X:XRPUSD",
+      "rank_score": 0.3875,
+      "score": -0.22499999999999998
+    },
+    {
+      "asset": "X:TAOUSD",
+      "rank_score": 0.37083333333333335,
+      "score": -0.2583333333333333
+    },
+    {
+      "asset": "X:ADAUSD",
+      "rank_score": 0.3708333333333333,
+      "score": -0.2583333333333334
+    },
+    {
+      "asset": "X:BCHUSD",
+      "rank_score": 0.275,
+      "score": -0.44999999999999996
+    },
+    {
+      "asset": "X:DOGEUSD",
+      "rank_score": 0.25,
+      "score": -0.5
+    },
+    {
+      "asset": "X:HYPEUSD",
+      "rank_score": 0.24791666666666665,
+      "score": -0.5041666666666667
+    },
+    {
+      "asset": "X:ARBUSD",
+      "rank_score": 0.19166666666666668,
+      "score": -0.6166666666666667
+    }
+  ],
+  "research_cutoff": "2026-09-28T23:59:59Z",
+  "run_id": "2026-09-28-eod",
+  "source_artifacts": [
+    "research\\runs\\2026-09-28-eod-attempt-20260929T021500Z.data-quality.json",
+    "research\\runs\\2026-09-28-eod-attempt-20260929T021500Z.capability-evaluation.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/feature-store.jsonl",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/factors.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/relative-value.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/macro-regime.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/ensemble.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/risk.json"
+  ],
+  "target_horizon": "next UTC-day close",
+  "universe": "top-25 eligible USD-quoted crypto by cutoff-day dollar-volume proxy with >= 60 history observations"
+}

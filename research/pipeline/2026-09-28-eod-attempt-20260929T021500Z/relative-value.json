@@ -1,0 +1,129 @@
+{
+  "assets": [
+    {
+      "momentum_20": 2.4312527930880385,
+      "residual_momentum_20": 0.6523066565719595,
+      "ticker": "X:QNTUSD"
+    },
+    {
+      "momentum_20": 1.0783924798413178,
+      "residual_momentum_20": 0.23278506813303698,
+      "ticker": "X:NEARUSD"
+    },
+    {
+      "momentum_20": 0.5429366384216516,
+      "residual_momentum_20": 0.22821234964233453,
+      "ticker": "X:HBARUSD"
+    },
+    {
+      "momentum_20": 0.3863151152860804,
+      "residual_momentum_20": 0.09853329635221503,
+      "ticker": "X:ONDOUSD"
+    },
+    {
+      "momentum_20": 0.2374155891187184,
+      "residual_momentum_20": 0.06755041613762094,
+      "ticker": "X:XLMUSD"
+    },
+    {
+      "momentum_20": 0.43892518180697637,
+      "residual_momentum_20": 0.050563190078017725,
+      "ticker": "X:SUIUSD"
+    },
+    {
+      "momentum_20": 0.34771825396825395,
+      "residual_momentum_20": 0.039066557462947196,
+      "ticker": "X:ALGOUSD"
+    },
+    {
+      "momentum_20": 0.3252154364930686,
+      "residual_momentum_20": 0.037551084286058696,
+      "ticker": "X:AVAXUSD"
+    },
+    {
+      "momentum_20": 0.27479692766756925,
+      "residual_momentum_20": 0.0263160844993288,
+      "ticker": "X:LTCUSD"
+    },
+    {
+      "momentum_20": 0.33977914030608103,
+      "residual_momentum_20": 0.000705463964046622,
+      "ticker": "X:AEROUSD"
+    },
+    {
+      "momentum_20": -0.0004996502448285645,
+      "residual_momentum_20": -0.000501633591883327,
+      "ticker": "X:USTUSD"
+    },
+    {
+      "momentum_20": 0.14936635387443165,
+      "residual_momentum_20": -0.03043175365839504,
+      "ticker": "X:SOLUSD"
+    },
+    {
+      "momentum_20": 0.19239383733983662,
+      "residual_momentum_20": -0.041027447895110154,
+      "ticker": "X:TAOUSD"
+    },
+    {
+      "momentum_20": 0.20052647878600194,
+      "residual_momentum_20": -0.04109256420164564,
+      "ticker": "X:BCHUSD"
+    },
+    {
+      "momentum_20": 0.23305799648506142,
+      "residual_momentum_20": -0.048515149469320465,
+      "ticker": "X:LINKUSD"
+    },
+    {
+      "momentum_20": 0.05568727067456947,
+      "residual_momentum_20": -0.07999910489588813,
+      "ticker": "X:XRPUSD"
+    },
+    {
+      "momentum_20": 0.12658400948126536,
+      "residual_momentum_20": -0.0887193853315812,
+      "ticker": "X:ADAUSD"
+    },
+    {
+      "momentum_20": 0.04277623542476405,
+      "residual_momentum_20": -0.11102785351838197,
+      "ticker": "X:DOGEUSD"
+    },
+    {
+      "momentum_20": 0.3031204380102397,
+      "residual_momentum_20": -0.11842498852128003,
+      "ticker": "X:UNIUSD"
+    },
+    {
+      "momentum_20": 0.6095554997488697,
+      "residual_momentum_20": -0.12672217655149476,
+      "ticker": "X:ENAUSD"
+    },
+    {
+      "momentum_20": 0.027119042028645124,
+      "residual_momentum_20": -0.13963815511064706,
+      "ticker": "X:HYPEUSD"
+    },
+    {
+      "momentum_20": 0.08144401252303801,
+      "residual_momentum_20": -0.27740334258274124,
+      "ticker": "X:ETHUSD"
+    },
+    {
+      "momentum_20": 0.2588904452650791,
+      "residual_momentum_20": -0.28875634271750583,
+      "ticker": "X:ZECUSD"
+    },
+    {
+      "momentum_20": 0.06385996883760292,
+      "residual_momentum_20": -0.29498738626817633,
+      "ticker": "X:BTCUSD"
+    },
+    {
+      "momentum_20": 0.22455438341214973,
+      "residual_momentum_20": -0.3187320623477175,
+      "ticker": "X:ARBUSD"
+    }
+  ]
+}

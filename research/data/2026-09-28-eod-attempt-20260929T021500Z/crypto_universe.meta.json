@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-09-28",
+  "attempt_id": "2026-09-28-eod-attempt-20260929T021500Z",
+  "data_digest": "sha256:a4ad712c5bf46157c0ccf996ad26fb56a6c22ab55e3478f0162f2da90ee3b611",
+  "data_path": "research/data/2026-09-28-eod-attempt-20260929T021500Z/crypto_universe.jsonl",
+  "dataset_id": "crypto_universe",
+  "endpoint_path": "/v3/reference/tickers",
+  "key_fields": [
+    "ticker"
+  ],
+  "market": "Crypto",
+  "materialization_status": "VERIFIED",
+  "params": {
+    "active": true,
+    "date": "2026-09-28",
+    "limit": 1000,
+    "market": "crypto",
+    "order": "asc",
+    "sort": "ticker"
+  },
+  "requirement": "CORE",
+  "research_cutoff": "2026-09-28T23:59:59Z",
+  "retrieved_at": "2026-09-29T02:17:15Z",
+  "row_count": 625,
+  "run_id": "2026-09-28-eod",
+  "sort_fields": [
+    "ticker"
+  ],
+  "source_chunks": [
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/universe-000.csv",
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/universe-001.csv",
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/universe-002.csv",
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/universe-003.csv",
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/universe-004.csv"
+  ]
+}

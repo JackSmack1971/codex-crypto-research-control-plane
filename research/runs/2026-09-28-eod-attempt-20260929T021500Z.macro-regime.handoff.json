@@ -1,0 +1,28 @@
+{
+  "agent": "macro-regime",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "Macro coverage is narrow and confidence is low: EURUSD is the only materialized cross-asset series; stock and index proxies were denied, so broad market, technology, volatility, and crypto-equity confirmation is unavailable.",
+  "claims": [
+    "EURUSD 20-observation momentum is -2.0865%, consistent with USD strength against the euro over that window, but EURUSD alone is not a broad dollar basket.",
+    "The crypto market-state artifact reports BTC 20-day momentum +6.386%, 20% advancing breadth and 9.06% return dispersion; BTC strength coexists with narrow crypto breadth.",
+    "EURUSD weakness and positive BTC momentum are different asset signals and do not establish causation or a complete risk-off regime."
+  ],
+  "evidence": [
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.capability-evaluation.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/macro-regime.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/pipeline-result.json",
+    "research/data/2026-09-28-eod-attempt-20260929T021500Z/fx_history.jsonl (104 rows; sha256:e812dc560c525e679d40fcc8dc6919dc3baae7a2f017e8b6651414e235785553)"
+  ],
+  "warnings": [
+    "Stock and index macro endpoints returned NOT_ENTITLED and are unavailable, not neutral.",
+    "Only one FX cross was materialized; broad USD direction cannot be established.",
+    "Regime observations are descriptive and do not authorize an exposure change."
+  ],
+  "uncertainty": [
+    "Equity/index, technology/growth, volatility, and crypto-sensitive equity confirmation is missing, so cross-asset regime classification is incomplete.",
+    "No causal inference between FX and crypto signals is supported."
+  ]
+}

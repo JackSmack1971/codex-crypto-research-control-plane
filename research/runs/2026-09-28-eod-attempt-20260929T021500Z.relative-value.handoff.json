@@ -1,0 +1,31 @@
+{
+  "agent": "relative-value",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "On the fixed 25-asset cross-section, BTC and ETH had positive 20-day momentum but negative residual momentum, with ETH modestly stronger than BTC on both measures. The data support relative weakness versus the cross-section after adjustment, but do not provide explicit beta estimates, regression residual returns, beta-instability statistics, or correlation-breakdown measures.",
+  "claims": [
+    "BTC 20-day momentum was 0.0639 and residual momentum was -0.2950; ETH 20-day momentum was 0.0814 and residual momentum was -0.2774.",
+    "ETH ranked above BTC in factor score (0.4521 vs 0.4021), relative-momentum component rank (0.2083 vs 0.0000), and residual-momentum component rank (0.1250 vs 0.0417). Both assets ranked below the 25-asset midpoint on these momentum components.",
+    "BTC and ETH remained above their 20-day simple moving averages. Their 20-day realized volatility was 0.4382 and 0.4648 respectively, with ETH higher.",
+    "The market-state artifact reports 20% advancing breadth, 90.6% return dispersion, and 72.4% of dollar volume concentrated in the top five assets. This context is consistent with differentiated cross-sectional outcomes, but does not establish their cause.",
+    "Among the 25 selected assets, residual momentum ranged from +0.6523 for QNT to -0.3187 for ARB. QNT, NEAR, and HBAR were the three strongest on this metric; ETH and BTC were at ranks 22 and 24 respectively."
+  ],
+  "evidence": [
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/relative-value.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/factors.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/feature-store.jsonl",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json"
+  ],
+  "warnings": [
+    "The market-state universe is limited to the 25 deterministically selected liquid-history assets; it is not the full point-in-time crypto universe.",
+    "No portfolio weights or asset exposures are inferred from the factor ranks.",
+    "No causal explanation for the BTC/ETH residual weakness is supported by these outputs."
+  ],
+  "uncertainty": [
+    "The fixed feature store contains 20- and 60-day momentum, residual_momentum_20, realized_vol_20, and trend measures, but no explicit BTC/ETH market-beta estimates or residual-return series.",
+    "Beta stability and correlation-breakdown conclusions cannot be assessed from the available artifacts.",
+    "Residual-momentum construction details are not established by the inspected outputs, so residual values should be treated as reported deterministic features rather than independently interpreted regression residual returns.",
+    "Macro enrichment is degraded: stock and index proxies were denied, and only EURUSD was materialized as FX history. This limits any cross-asset interpretation."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-09-28",
+  "attempt_id": "2026-09-28-eod-attempt-20260929T021500Z",
+  "data_digest": "sha256:e812dc560c525e679d40fcc8dc6919dc3baae7a2f017e8b6651414e235785553",
+  "data_path": "research/data/2026-09-28-eod-attempt-20260929T021500Z/fx_history.jsonl",
+  "dataset_id": "fx_history",
+  "endpoint_path": "/v2/aggs/ticker/{forexTicker}/range/1/day/2026-05-31/2026-09-28",
+  "key_fields": [
+    "ticker",
+    "t"
+  ],
+  "market": "Forex",
+  "materialization_status": "VERIFIED",
+  "params": {
+    "adjusted": true,
+    "from": "2026-05-31",
+    "limit": 50000,
+    "multiplier": 1,
+    "sort": "asc",
+    "ticker": "C:EURUSD",
+    "timespan": "day",
+    "to": "2026-09-28"
+  },
+  "requirement": "ENRICHMENT",
+  "research_cutoff": "2026-09-28T23:59:59Z",
+  "retrieved_at": "2026-09-29T02:40:52Z",
+  "row_count": 104,
+  "run_id": "2026-09-28-eod",
+  "sort_fields": [
+    "ticker",
+    "t"
+  ],
+  "source_chunks": [
+    "research/staging/2026-09-28-eod-attempt-20260929T021500Z/fx-history.csv"
+  ]
+}

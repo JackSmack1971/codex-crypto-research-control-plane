@@ -1,0 +1,29 @@
+{
+  "agent": "institutional-intelligence",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "Institutional and event coverage is unavailable for fixed-run analysis. 13-F and short-interest capabilities passed bounded access probes, but their rows were transient and neither dataset was materialized or paginated. Options EOD bars were not entitled and were not materialized. These states support no conclusion about event absence or market direction.",
+  "claims": [
+    "No fixed, materialized institutional or event dataset is available in the sealed acquisition for this attempt.",
+    "The acquisition report records one transient 13-F probe row dated 2026-09-25; the bounded probe was not paginated or materialized, so it does not establish the run's complete filing evidence.",
+    "The acquisition report records one transient short-interest probe row with settlement date 2026-09-15; the bounded probe was not paginated or materialized, so it does not establish the run's complete short-interest evidence.",
+    "Options proxy endpoint discovery was VERIFIED and the dated Basic snapshot status was INCLUDED, but authenticated options daily-bar access was NOT_ENTITLED; a separate contracts-metadata probe does not provide options price evidence.",
+    "No inference about native-crypto order flow, whale activity, on-chain flows, or real-time catalysts is supported."
+  ],
+  "evidence": [
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.capability-evaluation.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.capability-probes.json"
+  ],
+  "warnings": [
+    "institutional_filings: endpoint discovery VERIFIED; Basic snapshot INCLUDED; authenticated bounded probe SUCCEEDED; fixed materialization MISSING; event finding unavailable.",
+    "short_interest: endpoint discovery VERIFIED; Basic snapshot INCLUDED; authenticated bounded probe SUCCEEDED; fixed materialization MISSING; event finding unavailable.",
+    "options_proxies: endpoint discovery VERIFIED; Basic snapshot INCLUDED; authenticated EOD-bar access NOT_ENTITLED; fixed materialization MISSING.",
+    "All three families are EVENT_OPTIONAL under this run's acquisition record; no active registered design requiring them is evidenced here."
+  ],
+  "uncertainty": [
+    "Transient bounded probe rows are not fixed-run materialized evidence and do not establish the presence, absence, completeness, or significance of institutional or short-interest events.",
+    "No options EOD price observation is available for the cutoff.",
+    "The evidence does not support bullish or bearish interpretation from unavailable event coverage."
+  ]
+}

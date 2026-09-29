@@ -1,0 +1,87 @@
+{
+  "attempt_id": "2026-09-28-eod-attempt-20260929T021500Z",
+  "core_failures": [],
+  "degradations": [
+    "stock_macro_proxies:requirement=ENRICHMENT:discovery=VERIFIED:snapshot=INCLUDED:access=NOT_ENTITLED",
+    "index_macro_proxies:requirement=ENRICHMENT:discovery=VERIFIED:snapshot=INCLUDED:access=NOT_ENTITLED"
+  ],
+  "evaluated_capabilities": [
+    {
+      "access_status": "SUCCEEDED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "crypto_universe_pit",
+      "discovery_status": "VERIFIED",
+      "requirement": "CORE",
+      "usable": true
+    },
+    {
+      "access_status": "SUCCEEDED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "crypto_grouped_eod",
+      "discovery_status": "VERIFIED",
+      "requirement": "CORE",
+      "usable": true
+    },
+    {
+      "access_status": "SUCCEEDED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "crypto_history",
+      "discovery_status": "VERIFIED",
+      "requirement": "CORE",
+      "usable": true
+    },
+    {
+      "access_status": "SUCCEEDED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "fx_history",
+      "discovery_status": "VERIFIED",
+      "requirement": "ENRICHMENT",
+      "usable": true
+    },
+    {
+      "access_status": "NOT_ENTITLED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "stock_macro_proxies",
+      "discovery_status": "VERIFIED",
+      "requirement": "ENRICHMENT",
+      "usable": false
+    },
+    {
+      "access_status": "NOT_ENTITLED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "index_macro_proxies",
+      "discovery_status": "VERIFIED",
+      "requirement": "ENRICHMENT",
+      "usable": false
+    },
+    {
+      "access_status": "SUCCEEDED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "institutional_filings",
+      "discovery_status": "VERIFIED",
+      "requirement": "EVENT_OPTIONAL",
+      "usable": true
+    },
+    {
+      "access_status": "SUCCEEDED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "short_interest",
+      "discovery_status": "VERIFIED",
+      "requirement": "EVENT_OPTIONAL",
+      "usable": true
+    },
+    {
+      "access_status": "NOT_ENTITLED",
+      "basic_snapshot_status": "INCLUDED",
+      "capability_id": "options_proxies",
+      "discovery_status": "VERIFIED",
+      "requirement": "EVENT_OPTIONAL",
+      "usable": false
+    }
+  ],
+  "optional_unavailable": [
+    "options_proxies:requirement=EVENT_OPTIONAL:discovery=VERIFIED:snapshot=INCLUDED:access=NOT_ENTITLED"
+  ],
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED"
+}

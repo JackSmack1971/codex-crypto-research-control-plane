@@ -1,0 +1,585 @@
+{
+  "run_id": "2026-09-28-eod",
+  "attempt_id": "2026-09-28-eod-attempt-20260929T021500Z",
+  "retrieval_time_source": "CLIENT_CAPTURED",
+  "common_params": {
+    "multiplier": 1,
+    "timespan": "day",
+    "from": "2026-05-31",
+    "to": "2026-09-28",
+    "adjusted": true,
+    "sort": "asc",
+    "limit": 50000
+  },
+  "selected_tickers": [
+    "X:BTCUSD",
+    "X:ETHUSD",
+    "X:USTUSD",
+    "X:XRPUSD",
+    "X:QNTUSD",
+    "X:ZECUSD",
+    "X:HBARUSD",
+    "X:SOLUSD",
+    "X:LINKUSD",
+    "X:NEARUSD",
+    "X:SUIUSD",
+    "X:XLMUSD",
+    "X:ONDOUSD",
+    "X:HYPEUSD",
+    "X:LTCUSD",
+    "X:DOGEUSD",
+    "X:ADAUSD",
+    "X:UNIUSD",
+    "X:TAOUSD",
+    "X:AVAXUSD",
+    "X:ENAUSD",
+    "X:ARBUSD",
+    "X:ALGOUSD",
+    "X:BCHUSD",
+    "X:AEROUSD"
+  ],
+  "selection_rule": "Top 25 active USD pairs by cutoff-day volume*VWAP descending, ticker descending tie break; configured exclusions; add BTC/ETH anchors if absent.",
+  "calls": [
+    {
+      "ticker": "X:BTCUSD",
+      "table": "history_00",
+      "path": "/v2/aggs/ticker/X:BTCUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:30.115Z",
+        "end": "2026-09-29T02:21:34.391Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:29:33.153Z",
+        "end": "2026-09-29T02:29:37.103Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-00.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ETHUSD",
+      "table": "history_01",
+      "path": "/v2/aggs/ticker/X:ETHUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:34.402Z",
+        "end": "2026-09-29T02:21:37.657Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:29:54.643Z",
+        "end": "2026-09-29T02:29:57.402Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-01.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:USTUSD",
+      "table": "history_02",
+      "path": "/v2/aggs/ticker/X:USTUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:37.657Z",
+        "end": "2026-09-29T02:21:40.472Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:30:14.739Z",
+        "end": "2026-09-29T02:30:17.994Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-02.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:XRPUSD",
+      "table": "history_03",
+      "path": "/v2/aggs/ticker/X:XRPUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:40.473Z",
+        "end": "2026-09-29T02:21:44.404Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:30:35.368Z",
+        "end": "2026-09-29T02:30:39.856Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-03.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:QNTUSD",
+      "table": "history_04",
+      "path": "/v2/aggs/ticker/X:QNTUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:44.405Z",
+        "end": "2026-09-29T02:21:47.980Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:30:57.189Z",
+        "end": "2026-09-29T02:31:00.824Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-04.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ZECUSD",
+      "table": "history_05",
+      "path": "/v2/aggs/ticker/X:ZECUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:47.980Z",
+        "end": "2026-09-29T02:21:51.784Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:24:33.791Z",
+          "end": "2026-09-29T02:24:40.868Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:31:36.771Z",
+        "end": "2026-09-29T02:31:40.285Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-05.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:HBARUSD",
+      "table": "history_06",
+      "path": "/v2/aggs/ticker/X:HBARUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:51.784Z",
+        "end": "2026-09-29T02:21:55.433Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:24:53.880Z",
+          "end": "2026-09-29T02:24:57.241Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:31:57.789Z",
+        "end": "2026-09-29T02:32:01.001Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-06.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:SOLUSD",
+      "table": "history_07",
+      "path": "/v2/aggs/ticker/X:SOLUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:21:55.433Z",
+        "end": "2026-09-29T02:22:00.759Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:32:18.237Z",
+        "end": "2026-09-29T02:32:22.009Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-07.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:LINKUSD",
+      "table": "history_08",
+      "path": "/v2/aggs/ticker/X:LINKUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:00.759Z",
+        "end": "2026-09-29T02:22:04.133Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:32:39.273Z",
+        "end": "2026-09-29T02:32:43.352Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-08.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:NEARUSD",
+      "table": "history_09",
+      "path": "/v2/aggs/ticker/X:NEARUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:04.133Z",
+        "end": "2026-09-29T02:22:09.448Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:33:00.705Z",
+        "end": "2026-09-29T02:33:04.512Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-09.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:SUIUSD",
+      "table": "history_10",
+      "path": "/v2/aggs/ticker/X:SUIUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:09.448Z",
+        "end": "2026-09-29T02:22:14.287Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:33:37.765Z",
+        "end": "2026-09-29T02:33:41.458Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-10.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:XLMUSD",
+      "table": "history_11",
+      "path": "/v2/aggs/ticker/X:XLMUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:14.287Z",
+        "end": "2026-09-29T02:22:17.626Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:33:58.788Z",
+        "end": "2026-09-29T02:34:02.206Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-11.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ONDOUSD",
+      "table": "history_12",
+      "path": "/v2/aggs/ticker/X:ONDOUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:17.626Z",
+        "end": "2026-09-29T02:22:22.287Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:25:10.246Z",
+          "end": "2026-09-29T02:25:13.220Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:34:19.514Z",
+        "end": "2026-09-29T02:34:22.664Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-12.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:HYPEUSD",
+      "table": "history_13",
+      "path": "/v2/aggs/ticker/X:HYPEUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:22.287Z",
+        "end": "2026-09-29T02:22:25.335Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:25:26.240Z",
+          "end": "2026-09-29T02:25:29.580Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:34:40.044Z",
+        "end": "2026-09-29T02:34:46.848Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-13.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:LTCUSD",
+      "table": "history_14",
+      "path": "/v2/aggs/ticker/X:LTCUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:25.335Z",
+        "end": "2026-09-29T02:22:28.173Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:25:42.590Z",
+          "end": "2026-09-29T02:25:45.814Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:35:04.189Z",
+        "end": "2026-09-29T02:35:07.501Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-14.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:DOGEUSD",
+      "table": "history_15",
+      "path": "/v2/aggs/ticker/X:DOGEUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:28.173Z",
+        "end": "2026-09-29T02:22:31.199Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:25:54.330Z",
+          "end": "2026-09-29T02:25:59.062Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:35:54.712Z",
+        "end": "2026-09-29T02:35:57.944Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-15.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ADAUSD",
+      "table": "history_16",
+      "path": "/v2/aggs/ticker/X:ADAUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:31.199Z",
+        "end": "2026-09-29T02:22:35.117Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:26:12.080Z",
+          "end": "2026-09-29T02:26:16.366Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:36:15.314Z",
+        "end": "2026-09-29T02:36:18.737Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-16.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:UNIUSD",
+      "table": "history_17",
+      "path": "/v2/aggs/ticker/X:UNIUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:35.117Z",
+        "end": "2026-09-29T02:22:38.670Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:26:29.389Z",
+          "end": "2026-09-29T02:26:32.542Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:36:36.079Z",
+        "end": "2026-09-29T02:36:39.500Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-17.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:TAOUSD",
+      "table": "history_18",
+      "path": "/v2/aggs/ticker/X:TAOUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:38.670Z",
+        "end": "2026-09-29T02:22:42.528Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:26:45.556Z",
+          "end": "2026-09-29T02:26:48.837Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:36:57.145Z",
+        "end": "2026-09-29T02:37:00.248Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-18.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:AVAXUSD",
+      "table": "history_19",
+      "path": "/v2/aggs/ticker/X:AVAXUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:42.528Z",
+        "end": "2026-09-29T02:22:46.182Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:27:01.843Z",
+          "end": "2026-09-29T02:27:05.061Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:37:17.715Z",
+        "end": "2026-09-29T02:37:20.744Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-19.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ENAUSD",
+      "table": "history_20",
+      "path": "/v2/aggs/ticker/X:ENAUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:46.182Z",
+        "end": "2026-09-29T02:22:49.823Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:27:33.184Z",
+          "end": "2026-09-29T02:27:36.732Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:37:54.281Z",
+        "end": "2026-09-29T02:37:57.991Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-20.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ARBUSD",
+      "table": "history_21",
+      "path": "/v2/aggs/ticker/X:ARBUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:49.823Z",
+        "end": "2026-09-29T02:22:53.955Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:27:49.737Z",
+          "end": "2026-09-29T02:27:54.462Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:38:15.343Z",
+        "end": "2026-09-29T02:38:19.069Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-21.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:ALGOUSD",
+      "table": "history_22",
+      "path": "/v2/aggs/ticker/X:ALGOUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:53.955Z",
+        "end": "2026-09-29T02:22:57.580Z",
+        "row_count": 121,
+        "warning": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+      },
+      "retries": [
+        {
+          "start": "2026-09-29T02:28:07.472Z",
+          "end": "2026-09-29T02:28:10.751Z",
+          "row_count": 121,
+          "warning": null
+        }
+      ],
+      "materialization_export": {
+        "start": "2026-09-29T02:38:36.588Z",
+        "end": "2026-09-29T02:38:40.048Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-22.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:BCHUSD",
+      "table": "history_23",
+      "path": "/v2/aggs/ticker/X:BCHUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:22:57.580Z",
+        "end": "2026-09-29T02:23:01.414Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:38:57.457Z",
+        "end": "2026-09-29T02:39:02.436Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-23.csv",
+        "row_count": 121
+      }
+    },
+    {
+      "ticker": "X:AEROUSD",
+      "table": "history_24",
+      "path": "/v2/aggs/ticker/X:AEROUSD/range/1/day/2026-05-31/2026-09-28",
+      "initial": {
+        "start": "2026-09-29T02:23:01.414Z",
+        "end": "2026-09-29T02:23:04.759Z",
+        "row_count": 121,
+        "warning": null
+      },
+      "retries": [],
+      "materialization_export": {
+        "start": "2026-09-29T02:39:19.813Z",
+        "end": "2026-09-29T02:39:27.833Z",
+        "path": "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-24.csv",
+        "row_count": 121
+      }
+    }
+  ]
+}

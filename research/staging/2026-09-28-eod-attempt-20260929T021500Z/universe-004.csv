@@ -1,0 +1,26 @@
+ticker,name,market,locale,active,currency_symbol,currency_name,base_currency_symbol,base_currency_name,last_updated_utc
+X:XRPUSD,Ripple - United States dollar,crypto,global,1,USD,United States dollar,XRP,Ripple,2017-01-01T00:00:00Z
+X:XRTUSD,Robonomics Network - United States dollar,crypto,global,1,USD,United States dollar,XRT,Robonomics Network,2017-01-01T00:00:00Z
+X:XSGDUSD,XSGD - United States dollar,crypto,global,1,USD,United States dollar,XSGD,XSGD,2017-01-01T00:00:00Z
+X:XTPUSD,Tap - United States dollar,crypto,global,1,USD,United States dollar,XTP,Tap,2017-01-01T00:00:00Z
+X:XTZUSD,Tezos - United States dollar,crypto,global,1,USD,United States dollar,XTZ,Tezos,2017-01-01T00:00:00Z
+X:XVGUSD,Verge - United States dollar,crypto,global,1,USD,United States dollar,XVG,Verge,2017-01-01T00:00:00Z
+X:XYOUSD,XYO - United States dollar,crypto,global,1,USD,United States dollar,XYO,XYO,2017-01-01T00:00:00Z
+X:YFIIUSD,DFI.Money - United States dollar,crypto,global,1,USD,United States dollar,YFII,DFI.Money,2017-01-01T00:00:00Z
+X:YFIUSD,yearn.finance - United States dollar,crypto,global,1,USD,United States dollar,YFI,yearn.finance,2017-01-01T00:00:00Z
+X:YGGEUR,YggDrash - Euro,crypto,global,1,EUR,Euro,YGG,YggDrash,2017-01-01T00:00:00Z
+X:YGGUSD,YggDrash - United States dollar,crypto,global,1,USD,United States dollar,YGG,YggDrash,2017-01-01T00:00:00Z
+X:ZCNUSD,0chain - United States dollar,crypto,global,1,USD,United States dollar,ZCN,0chain,2017-01-01T00:00:00Z
+X:ZECUSD,Zcash - United States dollar,crypto,global,1,USD,United States dollar,ZEC,Zcash,2017-01-01T00:00:00Z
+X:ZENUSD,Horizen - United States dollar,crypto,global,1,USD,United States dollar,ZEN,Horizen,2017-01-01T00:00:00Z
+X:ZETACHAINUSD,ZetaChain - United States dollar,crypto,global,1,USD,United States dollar,ZETACHAIN,ZetaChain,2017-01-01T00:00:00Z
+X:ZETAUSD,ZetaChain - United States dollar,crypto,global,1,USD,United States dollar,ZETA,ZetaChain,2017-01-01T00:00:00Z
+X:ZEUSUSD,Zeus Network - United States dollar,crypto,global,1,USD,United States dollar,ZEUS,Zeus Network,2017-01-01T00:00:00Z
+X:ZEXUSD,Zeta - United States dollar,crypto,global,1,USD,United States dollar,ZEX,Zeta,2017-01-01T00:00:00Z
+X:ZILUSD,Zilliqa - United States dollar,crypto,global,1,USD,United States dollar,ZIL,Zilliqa,2017-01-01T00:00:00Z
+X:ZKUSD,ZKsync - United States dollar,crypto,global,1,USD,United States dollar,ZK,ZKsync,2017-01-01T00:00:00Z
+X:ZKXUSD,zkSync - United States dollar,crypto,global,1,USD,United States dollar,ZKX,zkSync,2017-01-01T00:00:00Z
+X:ZMTUSD,Zipmex - United States dollar,crypto,global,1,USD,United States dollar,ZMT,Zipmex,2017-01-01T00:00:00Z
+X:ZROUSD,LayerZero - United States dollar,crypto,global,1,USD,United States dollar,ZRO,LayerZero,2017-01-01T00:00:00Z
+X:ZRXUSD,0x - United States dollar,crypto,global,1,USD,United States dollar,ZRX,0x,2017-01-01T00:00:00Z
+X:ZUSDUSD,Zasset zUSD - United States dollar,crypto,global,1,USD,United States dollar,ZUSD,Zasset zUSD,2017-01-01T00:00:00Z

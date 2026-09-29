@@ -1,0 +1,30 @@
+{
+  "agent": "crypto-internals",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "The selected 25-asset cross-section has weak one-day breadth alongside uniformly positive 20-day SMA participation; pipeline state is TRANSITION. Momentum and volatility are highly dispersed, and dollar volume is concentrated.",
+  "claims": [
+    "Only 20% of the selected 25 assets advanced on the cutoff day, while 100% were above their SMA20.",
+    "Return dispersion is 0.09063. Reported 20-day momentum ranges from -0.0005 for UST to 2.4313 for QNT; realized volatility ranges from 0.0106 to 4.4485.",
+    "Top-five dollar-volume concentration is 0.72368; BTC and ETH have the highest individual dollar-volume observations, followed by UST.",
+    "BTC 20- and 60-day momentum are positive (0.0639, 0.2895) while residual_momentum_20 is -0.2950. ETH measures are 0.0814, 0.4021 and -0.2774. QNT, NEAR, and HBAR lead on reported factor/residual metrics.",
+    "Available artifacts do not report counts of advances/declines, new highs/lows, trade-count concentration, liquidity-weighted returns, or correlation concentration."
+  ],
+  "evidence": [
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/feature-store.jsonl",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/factors.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/pipeline-result.json"
+  ],
+  "warnings": [
+    "Coverage is the deterministic selected 25, not the 625-ticker active point-in-time universe.",
+    "Top-five dollar-volume concentration is high. Volatility/momentum extremes make simple cross-sectional summaries unrepresentative.",
+    "These are descriptive outputs, not validated predictive evidence. Field construction is not documented for btc_leadership and residual_momentum_20; no causal interpretation is made.",
+    "FX coverage is limited to one EURUSD series; stock and index proxies were denied."
+  ],
+  "uncertainty": [
+    "The inspected artifacts do not define the dispersion unit or all feature constructions.",
+    "Trade-count breadth/concentration and correlation structure are unavailable."
+  ]
+}

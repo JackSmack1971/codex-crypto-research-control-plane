@@ -1,0 +1,32 @@
+{
+  "agent": "research-director",
+  "run_id": "2026-09-28-eod",
+  "status": "BLOCKED",
+  "summary": "The governed attempt completed capability gating, durable source materialization, data-steward review, deterministic analytics, four parallel analytical reviews, synthesis, portfolio-risk review, and fresh methodology audit. Core research evidence passed and pipeline status is DEGRADED, but the methodology audit failed on the initial acquisition request-rate burst. The mandatory forecast-freeze gate therefore blocks forecast creation.",
+  "claims": [
+    "Attempt identity is fresh and prior run discovery found no earlier artifacts; this attempt is preserved under its unique ID.",
+    "Capability evaluation and sealed acquisition are DEGRADED with all CORE datasets complete and verified, FX enrichment materialized, and stock/index/options limitations explicit.",
+    "Data-steward permitted degraded continuation; deterministic pipeline completed with 25 of 25 history-qualified assets and TRANSITION market state.",
+    "Four required analytical handoffs and the portfolio-risk review were completed against fixed artifacts and validated against agent_handoff.schema.json.",
+    "Fresh methodology audit is FAIL with reason code ACQUISITION_RATE_LIMIT_VIOLATION. Successful later retries do not erase the initial Massive rate-limit warnings and request burst.",
+    "No forecast was frozen because the required methodology audit did not pass. The pipeline forecast payload remains an unfrozen research artifact."
+  ],
+  "evidence": [
+    "research/audits/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.capability-evaluation.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.data-quality.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/pipeline-result.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/forecast-payload.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.research-director-synthesis.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.portfolio-risk.handoff.json"
+  ],
+  "warnings": [
+    "The control-plane validator and eval validator passed; the unittest suite had one unrelated fixture digest failure (22/23 passed).",
+    "Git verification is unavailable because the workspace is not a Git checkout."
+  ],
+  "uncertainty": [
+    "Macro and institutional coverage remains incomplete as described by the sealed acquisition and analytical handoffs.",
+    "Research ranks have no OOS predictive validation; no trading interpretation is supported."
+  ]
+}

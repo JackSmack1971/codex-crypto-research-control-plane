@@ -1,0 +1,151 @@
+ticker,name,market,locale,active,currency_symbol,currency_name,base_currency_symbol,base_currency_name,last_updated_utc
+X:RLUSDUSD,RLUSD - United States dollar,crypto,global,1,USD,United States dollar,RLUSD,RLUSD,2017-01-01T00:00:00Z
+X:RLYUSD,Rally - United States dollar,crypto,global,1,USD,United States dollar,RLY,Rally,2017-01-01T00:00:00Z
+X:RNDRUSD,Render Token - United States dollar,crypto,global,1,USD,United States dollar,RNDR,Render Token,2017-01-01T00:00:00Z
+X:RONINUSD,Ronin - United States dollar,crypto,global,1,USD,United States dollar,RONIN,Ronin,2017-01-01T00:00:00Z
+X:ROOKUSD,Rook - United States dollar,crypto,global,1,USD,United States dollar,ROOK,Rook,2017-01-01T00:00:00Z
+X:ROSEUSD,Oasis Network - United States dollar,crypto,global,1,USD,United States dollar,ROSE,Oasis Network,2017-01-01T00:00:00Z
+X:RPLUSD,Rocket Pool - United States dollar,crypto,global,1,USD,United States dollar,RPL,Rocket Pool,2017-01-01T00:00:00Z
+X:RRTUSD,Recovery Right - United States dollar,crypto,global,1,USD,United States dollar,RRT,Recovery Right,2017-01-01T00:00:00Z
+X:RSRUSD,RSR - United States dollar,crypto,global,1,USD,United States dollar,RSR,RSR,2017-01-01T00:00:00Z
+X:RUNEUSD,Rune - United States dollar,crypto,global,1,USD,United States dollar,RUNE,Rune,2017-01-01T00:00:00Z
+X:SAFEUSD,Safe - United States dollar,crypto,global,1,USD,United States dollar,SAFE,Safe,2017-01-01T00:00:00Z
+X:SAGAUSD,Saga - United States dollar,crypto,global,1,USD,United States dollar,SAGA,Saga,2017-01-01T00:00:00Z
+X:SAMOUSD,Samoyedcoin - United States dollar,crypto,global,1,USD,United States dollar,SAMO,Samoyedcoin,2017-01-01T00:00:00Z
+X:SANDUSD,The Sandbox - United States dollar,crypto,global,1,USD,United States dollar,SAND,The Sandbox,2017-01-01T00:00:00Z
+X:SBRUSD,Saber - United States dollar,crypto,global,1,USD,United States dollar,SBR,Saber,2017-01-01T00:00:00Z
+X:SCROLLUSD,SCROLL - United States dollar,crypto,global,1,USD,United States dollar,SCROLL,SCROLL,2017-01-01T00:00:00Z
+X:SCRTUSD,Secret - United States dollar,crypto,global,1,USD,United States dollar,SCRT,Secret,2017-01-01T00:00:00Z
+X:SCUSD,Siacoin - United States dollar,crypto,global,1,USD,United States dollar,SC,Siacoin,2017-01-01T00:00:00Z
+X:SDNUSD,Shiden Network - United States dollar,crypto,global,1,USD,United States dollar,SDN,Shiden Network,2017-01-01T00:00:00Z
+X:SDUSD,Stader - United States dollar,crypto,global,1,USD,United States dollar,SD,Stader,2017-01-01T00:00:00Z
+X:SEAMUSD,Seamless - United States dollar,crypto,global,1,USD,United States dollar,SEAM,Seamless,2017-01-01T00:00:00Z
+X:SEIEUR,Sei - Euro,crypto,global,1,EUR,Euro,SEI,Sei,2017-01-01T00:00:00Z
+X:SEIUSD,Sei - United States dollar,crypto,global,1,USD,United States dollar,SEI,Sei,2017-01-01T00:00:00Z
+X:SGBUSD,Songbird - United States dollar,crypto,global,1,USD,United States dollar,SGB,Songbird,2017-01-01T00:00:00Z
+X:SHDWUSD,Shadow - United States dollar,crypto,global,1,USD,United States dollar,SHDW,Shadow,2017-01-01T00:00:00Z
+X:SHIBUSD,Shiba Inu - United States dollar,crypto,global,1,USD,United States dollar,SHIB,Shiba Inu,2017-01-01T00:00:00Z
+X:SHPINGUSD,Shping - United States dollar,crypto,global,1,USD,United States dollar,SHPING,Shping,2017-01-01T00:00:00Z
+X:SKLUSD,SKALE Network - United States dollar,crypto,global,1,USD,United States dollar,SKL,SKALE Network,2017-01-01T00:00:00Z
+X:SKYUSD,Sky - United States dollar,crypto,global,1,USD,United States dollar,SKY,Sky,2017-01-01T00:00:00Z
+X:SLPUSD,Smooth Love Potion - United States dollar,crypto,global,1,USD,United States dollar,SLP,Smooth Love Potion,2017-01-01T00:00:00Z
+X:SMTUSD,Swarm Markets - United States dollar,crypto,global,1,USD,United States dollar,SMT,Swarm Markets,2017-01-01T00:00:00Z
+X:SNTUSD,Status - United States dollar,crypto,global,1,USD,United States dollar,SNT,Status,2017-01-01T00:00:00Z
+X:SNXUSD,Synthetix - United States dollar,crypto,global,1,USD,United States dollar,SNX,Synthetix,2017-01-01T00:00:00Z
+X:SOLUSD,Solana - United States dollar,crypto,global,1,USD,United States dollar,SOL,Solana,2017-01-01T00:00:00Z
+X:SPAUSD,Sperax - United States dollar,crypto,global,1,USD,United States dollar,SPA,Sperax,2017-01-01T00:00:00Z
+X:SPECUSD,Spectral - United States dollar,crypto,global,1,USD,United States dollar,SPEC,Spectral,2017-01-01T00:00:00Z
+X:SPELLUSD,Spell Token - United States dollar,crypto,global,1,USD,United States dollar,SPELL,Spell Token,2017-01-01T00:00:00Z
+X:SPXUSD,SPX - United States dollar,crypto,global,1,USD,United States dollar,SPX,SPX,2017-01-01T00:00:00Z
+X:SRMUSD,Serum - United States dollar,crypto,global,1,USD,United States dollar,SRM,Serum,2017-01-01T00:00:00Z
+X:STEPUSD,Step Finance - United States dollar,crypto,global,1,USD,United States dollar,STEP,Step Finance,2017-01-01T00:00:00Z
+X:STGUSD,Stargate Finance - United States dollar,crypto,global,1,USD,United States dollar,STG,Stargate Finance,2017-01-01T00:00:00Z
+X:STORJUSD,Storj - United States dollar,crypto,global,1,USD,United States dollar,STORJ,Storj,2017-01-01T00:00:00Z
+X:STRDUSD,Stride - United States dollar,crypto,global,1,USD,United States dollar,STRD,Stride,2017-01-01T00:00:00Z
+X:STRKEUR,Starknet - Euro,crypto,global,1,EUR,Euro,STRK,Starknet,2017-01-01T00:00:00Z
+X:STRKUSD,Starknet - United States dollar,crypto,global,1,USD,United States dollar,STRK,Starknet,2017-01-01T00:00:00Z
+X:STXUSD,Stox - United States dollar,crypto,global,1,USD,United States dollar,STX,Stox,2017-01-01T00:00:00Z
+X:SUIUSD,Sui - United States dollar,crypto,global,1,USD,United States dollar,SUI,Sui,2017-01-01T00:00:00Z
+X:SUKUUSD,SUKU - United States dollar,crypto,global,1,USD,United States dollar,SUKU,SUKU,2017-01-01T00:00:00Z
+X:SUNUSD,Sun Token - United States dollar,crypto,global,1,USD,United States dollar,SUN,Sun Token,2017-01-01T00:00:00Z
+X:SUPERUSD,SuperVerse - United States dollar,crypto,global,1,USD,United States dollar,SUPER,SuperVerse,2017-01-01T00:00:00Z
+X:SUSHIUSD,Sushi - United States dollar,crypto,global,1,USD,United States dollar,SUSHI,Sushi,2017-01-01T00:00:00Z
+X:SWEATUSD,SWEAT - United States dollar,crypto,global,1,USD,United States dollar,SWEAT,SWEAT,2017-01-01T00:00:00Z
+X:SWELLUSD,Swell - United States dollar,crypto,global,1,USD,United States dollar,SWELL,Swell,2017-01-01T00:00:00Z
+X:SWFTCUSD,SwiftCoin - United States dollar,crypto,global,1,USD,United States dollar,SWFTC,SwiftCoin,2017-01-01T00:00:00Z
+X:SYLOUSD,Sylo - United States dollar,crypto,global,1,USD,United States dollar,SYLO,Sylo,2017-01-01T00:00:00Z
+X:SYNUSD,Synapse - United States dollar,crypto,global,1,USD,United States dollar,SYN,Synapse,2017-01-01T00:00:00Z
+X:SYRUPUSD,Syrup - United States dollar,crypto,global,1,USD,United States dollar,SYRUP,Syrup,2017-01-01T00:00:00Z
+X:TAIKOUSD,Taiko - United States dollar,crypto,global,1,USD,United States dollar,TAIKO,Taiko,2017-01-01T00:00:00Z
+X:TAOUSD,Bittensor - United States dollar,crypto,global,1,USD,United States dollar,TAO,Bittensor,2017-01-01T00:00:00Z
+X:TBTCUSD,tBTC - United States dollar,crypto,global,1,USD,United States dollar,TBTC,tBTC,2017-01-01T00:00:00Z
+X:TEERUSD,Integritee - United States dollar,crypto,global,1,USD,United States dollar,TEER,Integritee,2017-01-01T00:00:00Z
+X:THETAUSD,Theta - United States dollar,crypto,global,1,USD,United States dollar,THETA,Theta,2017-01-01T00:00:00Z
+X:TIAUSD,Celestia - United States dollar,crypto,global,1,USD,United States dollar,TIA,Celestia,2017-01-01T00:00:00Z
+X:TIMEUSD,Chrono.tech - United States dollar,crypto,global,1,USD,United States dollar,TIME,Chrono.tech,2017-01-01T00:00:00Z
+X:TITAN1USD,TITAN1 - United States dollar,crypto,global,1,USD,United States dollar,TITAN1,TITAN1,2017-01-01T00:00:00Z
+X:TITAN2USD,TITAN2 - United States dollar,crypto,global,1,USD,United States dollar,TITAN2,TITAN2,2017-01-01T00:00:00Z
+X:TLMUSD,Alien Worlds - United States dollar,crypto,global,1,USD,United States dollar,TLM,Alien Worlds,2017-01-01T00:00:00Z
+X:TLOSUSD,Telos - United States dollar,crypto,global,1,USD,United States dollar,TLOS,Telos,2017-01-01T00:00:00Z
+X:TNSRUSD,Tensor - United States dollar,crypto,global,1,USD,United States dollar,TNSR,Tensor,2017-01-01T00:00:00Z
+X:TOKENUSD,TokenFi - United States dollar,crypto,global,1,USD,United States dollar,TOKEN,TokenFi,2017-01-01T00:00:00Z
+X:TOKEUSD,Tokemak - United States dollar,crypto,global,1,USD,United States dollar,TOKE,Tokemak,2017-01-01T00:00:00Z
+X:TOMIUSD,tomiNET - United States dollar,crypto,global,1,USD,United States dollar,TOMI,tomiNET,2017-01-01T00:00:00Z
+X:TONEUSD,TE-FOOD - United States dollar,crypto,global,1,USD,United States dollar,TONE,TE-FOOD,2017-01-01T00:00:00Z
+X:TONUSD,Toncoin - United States dollar,crypto,global,1,USD,United States dollar,TON,Toncoin,2017-01-01T00:00:00Z
+X:TRACUSD,OriginTrail - United States dollar,crypto,global,1,USD,United States dollar,TRAC,OriginTrail,2017-01-01T00:00:00Z
+X:TRADEUSD,Polytrade - United States dollar,crypto,global,1,USD,United States dollar,TRADE,Polytrade,2017-01-01T00:00:00Z
+X:TRBUSD,Tellor - United States dollar,crypto,global,1,USD,United States dollar,TRB,Tellor,2017-01-01T00:00:00Z
+X:TREMPUSD,Doland Tremp - United States dollar,crypto,global,1,USD,United States dollar,TREMP,Doland Tremp,2017-01-01T00:00:00Z
+X:TRIBEUSD,Tribe - United States dollar,crypto,global,1,USD,United States dollar,TRIBE,Tribe,2017-01-01T00:00:00Z
+X:TRUFUSD,Truflation - United States dollar,crypto,global,1,USD,United States dollar,TRUF,Truflation,2017-01-01T00:00:00Z
+X:TRUMPUSD,Official Trump - United States dollar,crypto,global,1,USD,United States dollar,TRUMP,Official Trump,2017-01-01T00:00:00Z
+X:TRUUSD,TrueFi - United States dollar,crypto,global,1,USD,United States dollar,TRU,TrueFi,2017-01-01T00:00:00Z
+X:TRXUSD,TRON - United States dollar,crypto,global,1,USD,United States dollar,TRX,TRON,2017-01-01T00:00:00Z
+X:TSDUSD,TrueUSD - United States dollar,crypto,global,1,USD,United States dollar,TSD,TrueUSD,2017-01-01T00:00:00Z
+X:TURBOUSD,Turbo - United States dollar,crypto,global,1,USD,United States dollar,TURBO,Turbo,2017-01-01T00:00:00Z
+X:TUSD,Threshold - United States dollar,crypto,global,1,USD,United States dollar,T,Threshold,2017-01-01T00:00:00Z
+X:TUSDEUR,TrueUSD - United States dollar,crypto,global,1,USD,United States dollar,TUSD,TrueUSD,2017-01-01T00:00:00Z
+X:TVKEUR,Virtua - Euro,crypto,global,1,EUR,Euro,TVK,Virtua,2017-01-01T00:00:00Z
+X:TVKUSD,Virtua - United States dollar,crypto,global,1,USD,United States dollar,TVK,Virtua,2017-01-01T00:00:00Z
+X:UDCUSD,USD Coin - United States dollar,crypto,global,1,USD,United States dollar,UDC,USD Coin,2017-01-01T00:00:00Z
+X:UMAUSD,UMA - United States dollar,crypto,global,1,USD,United States dollar,UMA,UMA,2017-01-01T00:00:00Z
+X:UNFIUSD,Unifi Protocol DAO - United States dollar,crypto,global,1,USD,United States dollar,UNFI,Unifi Protocol DAO,2017-01-01T00:00:00Z
+X:UNIUSD,Uniswap - United States dollar,crypto,global,1,USD,United States dollar,UNI,Uniswap,2017-01-01T00:00:00Z
+X:UOSUSD,Ultra - United States dollar,crypto,global,1,USD,United States dollar,UOS,Ultra,2017-01-01T00:00:00Z
+X:UPIUSD,Pawtocol - United States dollar,crypto,global,1,USD,United States dollar,UPI,Pawtocol,2017-01-01T00:00:00Z
+X:USDCUSD,USD Coin - United States dollar,crypto,global,1,USD,United States dollar,USDC,USD Coin,2017-01-01T00:00:00Z
+X:USDGUSD,USDG - United States dollar,crypto,global,1,USD,United States dollar,USDG,USDG,2017-01-01T00:00:00Z
+X:USDQUSD,USDQ - United States dollar,crypto,global,1,USD,United States dollar,USDQ,USDQ,2017-01-01T00:00:00Z
+X:USDRUSD,USDR - United States dollar,crypto,global,1,USD,United States dollar,USDR,USDR,2017-01-01T00:00:00Z
+X:USDSUSD,USDS - United States dollar,crypto,global,1,USD,United States dollar,USDS,USDS,2017-01-01T00:00:00Z
+X:USDTUSD,Tether - United States dollar,crypto,global,1,USD,United States dollar,USDT,Tether,2017-01-01T00:00:00Z
+X:USTBLUSD,USTBL - United States dollar,crypto,global,1,USD,United States dollar,USTBL,USTBL,2017-01-01T00:00:00Z
+X:USTUSD,TerraUST - United States dollar,crypto,global,1,USD,United States dollar,UST,TerraUST,2017-01-01T00:00:00Z
+X:UTKUSD,UTrust - United States dollar,crypto,global,1,USD,United States dollar,UTK,UTrust,2017-01-01T00:00:00Z
+X:UXLINKUSD,UXLINK - United States dollar,crypto,global,1,USD,United States dollar,UXLINK,UXLINK,2017-01-01T00:00:00Z
+X:VANRYUSD,VANRY - United States dollar,crypto,global,1,USD,United States dollar,VANRY,VANRY,2017-01-01T00:00:00Z
+X:VARAUSD,Vara - United States dollar,crypto,global,1,USD,United States dollar,VARA,Vara,2017-01-01T00:00:00Z
+X:VCHFUSD,VNX Swiss Franc - United States dollar,crypto,global,1,USD,United States dollar,VCHF,VNX Swiss Franc,2017-01-01T00:00:00Z
+X:VEEUSD,BLOCKv - United States dollar,crypto,global,1,USD,United States dollar,VEE,BLOCKv,2017-01-01T00:00:00Z
+X:VEGAUSD,Vega Protocol - United States dollar,crypto,global,1,USD,United States dollar,VEGA,Vega Protocol,2017-01-01T00:00:00Z
+X:VELARUSD,Velar - United States dollar,crypto,global,1,USD,United States dollar,VELAR,Velar,2017-01-01T00:00:00Z
+X:VELOUSD,Velo - United States dollar,crypto,global,1,USD,United States dollar,VELO,Velo,2017-01-01T00:00:00Z
+X:VETUSD,VeChain - United States dollar,crypto,global,1,USD,United States dollar,VET,VeChain,2017-01-01T00:00:00Z
+X:VEURUSD,VNX EURO - United States dollar,crypto,global,1,USD,United States dollar,VEUR,VNX EURO,2017-01-01T00:00:00Z
+X:VEXTUSD,Veloce - United States dollar,crypto,global,1,USD,United States dollar,VEXT,Veloce,2017-01-01T00:00:00Z
+X:VGXUSD,Voyager Token - United States dollar,crypto,global,1,USD,United States dollar,VGX,Voyager Token,2017-01-01T00:00:00Z
+X:VOXELUSD,Voxies - United States dollar,crypto,global,1,USD,United States dollar,VOXEL,Voxies,2017-01-01T00:00:00Z
+X:VSYUSD,VSY - United States dollar,crypto,global,1,USD,United States dollar,VSY,VSY,2017-01-01T00:00:00Z
+X:VTHOUSD,VeThor Token - United States dollar,crypto,global,1,USD,United States dollar,VTHO,VeThor Token,2017-01-01T00:00:00Z
+X:WAMPLUSD,Wrapped Ampleforth - United States dollar,crypto,global,1,USD,United States dollar,WAMPL,Wrapped Ampleforth,2017-01-01T00:00:00Z
+X:WAVESUSD,Waves - United States dollar,crypto,global,1,USD,United States dollar,WAVES,Waves,2017-01-01T00:00:00Z
+X:WAXLUSD,Wrapped Axelar - United States dollar,crypto,global,1,USD,United States dollar,WAXL,Wrapped Axelar,2017-01-01T00:00:00Z
+X:WAXUSD,Wax - United States dollar,crypto,global,1,USD,United States dollar,WAX,Wax,2017-01-01T00:00:00Z
+X:WBTCUSD,Wrapped Bitcoin - United States dollar,crypto,global,1,USD,United States dollar,WBTC,Wrapped Bitcoin,2017-01-01T00:00:00Z
+X:WBTUSD,WhiteBIT Coin - United States dollar,crypto,global,1,USD,United States dollar,WBT,WhiteBIT Coin,2017-01-01T00:00:00Z
+X:WCFGUSD,Wrapped Centrifuge - United States dollar,crypto,global,1,USD,United States dollar,WCFG,Wrapped Centrifuge,2017-01-01T00:00:00Z
+X:WECANUSD,Wecan - United States dollar,crypto,global,1,USD,United States dollar,WECAN,Wecan,2017-01-01T00:00:00Z
+X:WELLUSD,Moonwell - United States dollar,crypto,global,1,USD,United States dollar,WELL,Moonwell,2017-01-01T00:00:00Z
+X:WENUSD,WEN Token - United States dollar,crypto,global,1,USD,United States dollar,WEN,WEN Token,2017-01-01T00:00:00Z
+X:WEUR,Wormhole - Euro,crypto,global,1,EUR,Euro,W,Wormhole,2017-01-01T00:00:00Z
+X:WHBTUSD,WhiteBIT Token - United States dollar,crypto,global,1,USD,United States dollar,WHBT,WhiteBIT Token,2017-01-01T00:00:00Z
+X:WIFEUR,dogwifhat - Euro,crypto,global,1,EUR,Euro,WIF,dogwifhat,2017-01-01T00:00:00Z
+X:WIFUSD,dogwifhat - United States dollar,crypto,global,1,USD,United States dollar,WIF,dogwifhat,2017-01-01T00:00:00Z
+X:WILDUSD,Wilder World - United States dollar,crypto,global,1,USD,United States dollar,WILD,Wilder World,2017-01-01T00:00:00Z
+X:WLUNAUSD,Wrapped Luna Classic - United States dollar,crypto,global,1,USD,United States dollar,WLUNA,Wrapped Luna Classic,2017-01-01T00:00:00Z
+X:WNCGUSD,WNCG - United States dollar,crypto,global,1,USD,United States dollar,WNCG,WNCG,2017-01-01T00:00:00Z
+X:WOOUSD,WOO - United States dollar,crypto,global,1,USD,United States dollar,WOO,WOO,2017-01-01T00:00:00Z
+X:WUSD,Wormhole - United States dollar,crypto,global,1,USD,United States dollar,W,Wormhole,2017-01-01T00:00:00Z
+X:WXXUSD,WXX - United States dollar,crypto,global,1,USD,United States dollar,WXX,WXX,2017-01-01T00:00:00Z
+X:XAUTUSD,Tether Gold - United States dollar,crypto,global,1,USD,United States dollar,XAUT,Tether Gold,2017-01-01T00:00:00Z
+X:XCADUSD,XCAD Network - United States dollar,crypto,global,1,USD,United States dollar,XCAD,XCAD Network,2017-01-01T00:00:00Z
+X:XCHNGUSD,XCHNG Platform - United States dollar,crypto,global,1,USD,United States dollar,XCHNG,XCHNG Platform,2017-01-01T00:00:00Z
+X:XCNUSD,Onyxcoin - United States dollar,crypto,global,1,USD,United States dollar,XCN,Onyxcoin,2017-01-01T00:00:00Z
+X:XDCUSD,XDC Network - United States dollar,crypto,global,1,USD,United States dollar,XDC,XDC Network,2017-01-01T00:00:00Z
+X:XLMUSD,Stellar - United States dollar,crypto,global,1,USD,United States dollar,XLM,Stellar,2017-01-01T00:00:00Z
+X:XMRUSD,Monero - United States dollar,crypto,global,1,USD,United States dollar,XMR,Monero,2017-01-01T00:00:00Z
+X:XRAUSD,Ratecoin - United States dollar,crypto,global,1,USD,United States dollar,XRA,Ratecoin,2017-01-01T00:00:00Z
+X:XRDUSD,Radix - United States dollar,crypto,global,1,USD,United States dollar,XRD,Radix,2017-01-01T00:00:00Z
+X:XRPAUD,Ripple - Australian dollar,crypto,global,1,AUD,Australian dollar,XRP,Ripple,2017-01-01T00:00:00Z
+X:XRPBTC,Ripple - Bitcoin,crypto,global,1,BTC,Bitcoin,XRP,Ripple,2017-01-01T00:00:00Z

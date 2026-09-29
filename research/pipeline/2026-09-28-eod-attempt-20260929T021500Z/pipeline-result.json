@@ -1,0 +1,27 @@
+{
+  "artifacts": {
+    "ensemble": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/ensemble.json",
+    "factors": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/factors.json",
+    "feature_store": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/feature-store.jsonl",
+    "forecast_payload": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/forecast-payload.json",
+    "macro_regime": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/macro-regime.json",
+    "market_state": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "relative_value": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/relative-value.json",
+    "risk": "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/risk.json"
+  },
+  "attempt_id": "2026-09-28-eod-attempt-20260929T021500Z",
+  "eligible_assets": 25,
+  "history_qualified_assets": 25,
+  "limitations": [
+    "data_quality_status:DEGRADED",
+    "index_macro_proxies:requirement=ENRICHMENT:discovery=VERIFIED:snapshot=INCLUDED:access=NOT_ENTITLED",
+    "macro_family_unavailable:indices",
+    "macro_family_unavailable:stocks",
+    "stock_macro_proxies:requirement=ENRICHMENT:discovery=VERIFIED:snapshot=INCLUDED:access=NOT_ENTITLED"
+  ],
+  "macro_coverage": "DEGRADED",
+  "market_state": "TRANSITION",
+  "research_cutoff": "2026-09-28T23:59:59Z",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED"
+}

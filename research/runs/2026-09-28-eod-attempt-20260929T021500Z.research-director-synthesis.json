@@ -1,0 +1,42 @@
+{
+  "agent": "research-director",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "The fixed-source daily pipeline completed with 25/25 selected assets meeting history requirements. Its deterministic state is TRANSITION. Crypto evidence is mixed: broad SMA20 participation and positive BTC/ETH multi-week momentum coexist with weak one-day breadth, high dispersion/concentration, and negative BTC/ETH residual-momentum features. Macro and event coverage materially limit interpretation.",
+  "claims": [
+    "Data-steward permits continuation as DEGRADED after verifying the sealed acquisition and four materialized datasets: crypto universe (625 rows), cutoff grouped EOD (392), selected history (3,025), and EURUSD history (104).",
+    "The deterministic pipeline reports 25 eligible assets, 25 history-qualified assets, market_state TRANSITION, and macro coverage DEGRADED. Its factor ranking is descriptive research output, not validated predictive evidence.",
+    "Across the selected 25 assets, advancing breadth is 20%, SMA20 participation is 100%, return dispersion is 0.09063, and top-five dollar-volume concentration is 72.37%. BTC/ETH have positive 20-day momentum (+6.39%/+8.14%) but negative reported residual_momentum_20 (-0.2950/-0.2774); QNT leads factor score.",
+    "Relative-value evidence supports ETH modestly ahead of BTC within the observed cross-section, while beta estimates, stable regression residual returns, and correlation-breakdown evidence are unavailable.",
+    "Only EURUSD macro history was materialized; its 20-observation momentum is -2.0865%, consistent with strength against the euro only. Stock/index calls were NOT_ENTITLED and are missing, not neutral.",
+    "Institutional filings and short-interest probes are transient and unmaterialized; options daily bars are NOT_ENTITLED. No event absence or direction can be inferred.",
+    "Portfolio exposure remains a deterministic research-only proposal with a 32.5% gross target under TRANSITION and 10% maximum individual weight; it is not an execution instruction."
+  ],
+  "evidence": [
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.data-steward-handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.data-quality.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/pipeline-result.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/factors.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/relative-value.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/macro-regime.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/risk.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.crypto-internals.handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.relative-value.handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.macro-regime.handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.institutional-intelligence.handoff.json"
+  ],
+  "warnings": [
+    "Stock and index macro enrichment are NOT_ENTITLED despite dated Basic snapshot inclusion; macro coverage is only one FX cross.",
+    "History requests initially hit Massive RATE_LIMIT warnings due to request cadence faster than five requests per minute. Retries later succeeded at paced intervals; data were not inferred or substituted.",
+    "13-F and short-interest were not paginated/materialized, and option price access was denied. This is not evidence of no event.",
+    "Top-five volume concentration is high and transaction-cost inputs such as executable spread, market depth, funding, borrow, and impact are unsupported by EOD aggregates."
+  ],
+  "uncertainty": [
+    "Universe inference is limited to the deterministic selected 25 for historical analysis; cross-section-wide properties do not represent all 625 point-in-time tickers.",
+    "Residual momentum, BTC leadership, and dispersion construction are not fully described in output contracts; treat as repository-produced features without stronger causal interpretation.",
+    "Cross-asset regime confidence is low, and absent data families cannot support neutral assumptions.",
+    "Forecast target is next UTC-day close; no realized outcome existed when this run began its forecast."
+  ]
+}

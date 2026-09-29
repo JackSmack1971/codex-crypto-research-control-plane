@@ -1,0 +1,17 @@
+{
+  "subject_type": "daily_run",
+  "subject_id": "2026-09-28-eod",
+  "run_id": "2026-09-28-eod",
+  "auditor": "methodology-auditor",
+  "status": "FAIL",
+  "reason_codes": [
+    "ACQUISITION_RATE_LIMIT_VIOLATION"
+  ],
+  "evidence": [
+    "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-source-call-log.json: 25 initial history calls span 2026-09-29T02:21:30Z–02:23:04Z, roughly one request every 3–5 seconds, exceeding the requested five requests per minute. Calls for ZEC, HBAR, ONDO, HYPE, LTC, and subsequent tickers record Massive RATE_LIMIT warnings; retries later succeeded at slower intervals. Row counts and materialized digests are internally consistent, but retries do not erase the initial rate-limit violation.",
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json: all three CORE capabilities are recorded as discovered, included in the dated Basic snapshot, and authenticated successfully. Stock/index ENRICHMENT and options EVENT_OPTIONAL denials are explicit; they were not silently substituted. Filing and short-interest probes were not materialized, and the analysis correctly makes no event-absence claim.",
+    "research/data/2026-09-28-eod-attempt-20260929T021500Z/*.meta.json and research/runs/2026-09-28-eod-attempt-20260929T021500Z.data-steward-handoff.json: the four materialized datasets report matching row counts and SHA-256 digests; the steward records no observed post-cutoff crypto or FX bars. Provider request IDs and raw response envelopes are absent, so pagination and source-response evidence depend on the call log, staged exports, and manifest.",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/forecast-payload.json and factors.json: output is a descriptive rank-based next-day forecast over the selected 25 assets, with no supplied out-of-sample evidence establishing predictive value. The analytical handoffs appropriately limit claims and disclose unavailable inputs, narrow universe coverage, and transaction-cost uncertainty.",
+    "Verification: control-plane and eval validators passed; 22 of 23 unit tests passed. The failing deterministic-pipeline test reported a fixture metadata-digest mismatch attributed to LF/CRLF behavior, while the actual governed pipeline completed. This limits test-suite assurance but does not independently establish incorrect run outputs."
+  ]
+}

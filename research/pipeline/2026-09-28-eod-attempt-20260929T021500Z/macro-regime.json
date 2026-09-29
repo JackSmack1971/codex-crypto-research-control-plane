@@ -1,0 +1,10 @@
+{
+  "coverage": "DEGRADED",
+  "families": {
+    "fx": {
+      "median_momentum_20": -0.020864548350985945,
+      "series": 1,
+      "usd_factor_20": 0.020864548350985945
+    }
+  }
+}

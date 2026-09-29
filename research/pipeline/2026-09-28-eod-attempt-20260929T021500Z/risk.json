@@ -1,0 +1,21 @@
+{
+  "gross_target": 0.325,
+  "market_state": "TRANSITION",
+  "max_research_weight": 0.1,
+  "note": "Research-only sizing output; not an execution instruction and not a brokerage action.",
+  "suggested_research_weights": {
+    "X:AEROUSD": 0.005915813424345847,
+    "X:ALGOUSD": 0.024032992036405004,
+    "X:AVAXUSD": 0.010352673492605236,
+    "X:ENAUSD": 0.011092150170648466,
+    "X:HBARUSD": 0.051393629124004546,
+    "X:LINKUSD": 0.012201365187713307,
+    "X:LTCUSD": 0.021444823663253704,
+    "X:NEARUSD": 0.050654152445961324,
+    "X:ONDOUSD": 0.021444823663253704,
+    "X:QNTUSD": 0.05620022753128556,
+    "X:SOLUSD": 0.00443686006825939,
+    "X:SUIUSD": 0.03623435722411831,
+    "X:XLMUSD": 0.019596131968145632
+  }
+}

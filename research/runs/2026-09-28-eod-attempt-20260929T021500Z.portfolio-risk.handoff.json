@@ -1,0 +1,39 @@
+{
+  "agent": "portfolio-risk",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "The deterministic proposal meets its stated 32.5% gross target and 10% individual-weight cap, but concentrated exposure to volatile assets and missing portfolio-level risk inputs limit confidence. It is acceptable for research forecast freezing only as a DEGRADED, research-only proposal with these limitations retained; it is not execution authority.",
+  "claims": [
+    "The proposed weights sum to 32.5% gross; the largest individual weight is QNT at approximately 5.62%, below the stated 10% maximum. All proposed weights are long-only.",
+    "The five largest positions—QNT, HBAR, NEAR, SUI, and ALGO—sum to approximately 21.85% of portfolio notional, or 67.2% of proposed gross exposure. This is material name concentration.",
+    "Market-state top-five dollar-volume concentration is 72.37% across the selected 25 assets. This reinforces concern that the proposal's holdings sit within a concentrated liquidity cross-section; it does not establish executable capacity.",
+    "QNT is the largest proposed position and has the highest reported selected-asset realized_vol_20 (4.4485), alongside a cutoff-day return of -19.55%. HBAR and NEAR also have high reported realized_vol_20 (1.3281 and 1.5605). These observations make raw notional sizing an incomplete risk measure.",
+    "A simple sum of proposed weight multiplied by each held asset's reported realized_vol_20 is approximately 0.588. This is only a descriptive weighted-feature proxy, not portfolio volatility, because covariance, units/annualization, and portfolio return construction are not established in the supplied artifacts.",
+    "The TRANSITION regime multiplier is 0.65 and the pipeline sets gross exposure to 32.5%. I find the resulting stated exposure constraints internally consistent; the multiplier does not itself demonstrate controlled drawdown or risk.",
+    "BTC beta, a portfolio covariance matrix, correlation-cluster exposures, turnover, realized or simulated drawdown, and explicit rebalance controls are unavailable. Their absence prevents independent validation of beta, aggregate volatility, turnover costs, diversification, or drawdown behavior.",
+    "Transaction-cost and capacity inputs—including executable spreads, order-book depth, market impact, funding, and borrow—are unsupported by the fixed EOD aggregates. Liquidity ranks and dollar-volume observations are proxies only.",
+    "Cross-asset macro coverage is DEGRADED: only EURUSD history was materialized; stock and index proxies are unavailable. Event and institutional families are not fixed-materialized evidence. These gaps reduce regime confidence and must not be treated as neutral signals."
+  ],
+  "evidence": [
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/risk.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/feature-store.jsonl",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/market-state.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/factors.json",
+    "research/pipeline/2026-09-28-eod-attempt-20260929T021500Z/ensemble.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.research-director-synthesis.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.crypto-internals.handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.relative-value.handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.macro-regime.handoff.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.institutional-intelligence.handoff.json"
+  ],
+  "warnings": [
+    "Acceptability is limited to inclusion in a research forecast freeze, with DEGRADED status and explicit limitations. The proposal is not a trading instruction, broker action, or execution-ready portfolio.",
+    "No independent Massive refresh or fixed-dataset mutation was performed."
+  ],
+  "uncertainty": [
+    "The artifacts do not provide enough information to estimate portfolio volatility, BTC beta, correlation clusters, turnover, drawdown, or transaction costs.",
+    "The construction and units of reported realized_vol_20 and some deterministic features are not established here; cross-asset or portfolio-level interpretation is limited.",
+    "Selected-asset dollar volume is not executable liquidity or capacity evidence, and the selected 25 do not represent the full point-in-time universe."
+  ]
+}

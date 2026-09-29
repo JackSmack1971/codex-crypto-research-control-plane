@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "cutoff": "2026-09-28T23:59:59Z",
+  "datasets": [
+    "crypto_universe:625 rows, VERIFIED, sha256:a4ad712c5bf46157c0ccf996ad26fb56a6c22ab55e3478f0162f2da90ee3b611",
+    "crypto_grouped_eod:392 rows, VERIFIED, sha256:19c542b345923854e18255c487e8eb8a2db713c6ea484abc0c3552008d5f7421",
+    "crypto_history:3025 rows (25 tickers x 121), VERIFIED, sha256:e19453737399fbf1f887e86041a77a76e411c6835403a4a409d954ff98a631d3",
+    "fx_history:104 rows, VERIFIED, sha256:e812dc560c525e679d40fcc8dc6919dc3baae7a2f017e8b6651414e235785553"
+  ],
+  "findings": [
+    "Data-steward independently verified sealed acquisition digest sha256:bcc71989a66f52eefdea012a2e899482de98817c1764c8c53d8bd9266ec3e35a and all four materialized data digests, row counts, keys, and cutoff dates.",
+    "All CORE access and materialization gates pass; no post-cutoff crypto or FX bars observed.",
+    "FX enrichment is limited to EURUSD; stock and index macro proxies are NOT_ENTITLED and explicitly omitted.",
+    "Options price bars are NOT_ENTITLED under EVENT_OPTIONAL; 13-F and short-interest were probe-only and not materialized, so event absence cannot be inferred.",
+    "Initial request cadence triggered rate-limit warnings; retry history records successful completion. Later requests were paced below five per minute.",
+    "Acquisition is eligible for downstream deterministic research as DEGRADED; maintain coverage limitations in all interpretation."
+  ]
+}

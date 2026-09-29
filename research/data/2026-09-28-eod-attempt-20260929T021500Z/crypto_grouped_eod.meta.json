@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-09-28",
+  "attempt_id": "2026-09-28-eod-attempt-20260929T021500Z",
+  "data_digest": "sha256:19c542b345923854e18255c487e8eb8a2db713c6ea484abc0c3552008d5f7421",
+  "data_path": "research/data/2026-09-28-eod-attempt-20260929T021500Z/crypto_grouped_eod.jsonl",
+  "dataset_id": "crypto_grouped_eod",
+  "endpoint_path": "/v2/aggs/grouped/locale/global/market/crypto/2026-09-28",
+  "key_fields": [
+    "T",
+    "t_2"
+  ],
+  "market": "Crypto",
+  "materialization_status": "VERIFIED",
+  "params": {
+    "adjusted": true
+  },
+  "requirement": "CORE",
+  "research_cutoff": "2026-09-28T23:59:59Z",
+  "retrieved_at": "2026-09-29T02:19:28Z",
+  "row_count": 392,
+  "run_id": "2026-09-28-eod",
+  "sort_fields": [
+    "T",
+    "t_2"
+  ],
+  "source_chunks": [
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/grouped-fixed-000.csv",
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/grouped-fixed-001.csv",
+    "C:/TEST repos/codex-crypto-research-control-plane-v0.3.1/research/staging/2026-09-28-eod-attempt-20260929T021500Z/grouped-fixed-002.csv"
+  ]
+}

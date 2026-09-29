@@ -1,0 +1,33 @@
+{
+  "agent": "data-steward",
+  "run_id": "2026-09-28-eod",
+  "status": "DEGRADED",
+  "summary": "The fixed crypto core is internally consistent and suitable for downstream analysis with degraded macro coverage. No blocking CORE materialization, pagination, join, or cutoff issue was found in the inspected local artifacts.",
+  "claims": [
+    "The sealed acquisition digest recomputes to sha256:bcc71989a66f52eefdea012a2e899482de98817c1764c8c53d8bd9266ec3e35a.",
+    "All four materialized datasets match their manifest and sidecar row counts and SHA-256 digests: crypto_universe 625, crypto_grouped_eod 392, crypto_history 3025, and fx_history 104.",
+    "CORE datasets use the 2026-09-28 point-in-time cutoff; retrieved_at timestamps after cutoff reflect acquisition time, and observed crypto/FX bars do not extend past 2026-09-28.",
+    "Stocks and indices are ENRICHMENT access denials and degrade coverage; options denial is EVENT_OPTIONAL. Filing and short-interest probes were not materialized and provide no evidence of event absence."
+  ],
+  "evidence": [
+    "research/acquisitions/2026-09-28-eod-attempt-20260929T021500Z.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.capability-evaluation.json",
+    "research/runs/2026-09-28-eod-attempt-20260929T021500Z.capability-probes.json",
+    "research/data/2026-09-28-eod-attempt-20260929T021500Z/crypto_universe.jsonl and crypto_universe.meta.json",
+    "research/data/2026-09-28-eod-attempt-20260929T021500Z/crypto_grouped_eod.jsonl and crypto_grouped_eod.meta.json",
+    "research/data/2026-09-28-eod-attempt-20260929T021500Z/crypto_history.jsonl and crypto_history.meta.json",
+    "research/data/2026-09-28-eod-attempt-20260929T021500Z/fx_history.jsonl and fx_history.meta.json",
+    "research/staging/2026-09-28-eod-attempt-20260929T021500Z/history-source-call-log.json",
+    "research/staging/2026-09-28-eod-attempt-20260929T021500Z/universe-000.csv through universe-004.csv; grouped-fixed-000.csv through grouped-fixed-002.csv"
+  ],
+  "warnings": [
+    "Stock and index macro proxy calls were denied despite dated Basic snapshot entries; their lack of observations must remain explicit in analysis.",
+    "The call log records rate-limit warnings during crypto-history retrieval followed by successful retries with 121 rows per ticker. Initial request cadence appears faster than five requests per minute; this is an acquisition pacing concern, though local exports and materialized rows agree.",
+    "Only EURUSD is durably materialized as FX enrichment. It is a narrow proxy.",
+    "Institutional filings and short interest each had a bounded access probe, but neither family was paginated or materialized; no conclusion about absence of events is supported.",
+    "Crypto history covers the selected 25 tickers, not the full point-in-time universe."
+  ],
+  "uncertainty": [
+    "The requested local artifacts establish the historical universe query parameters and internally consistent output, but do not independently preserve Massive request IDs or raw per-page response envelopes; pagination completeness relies on the acquisition manifest and export evidence."
+  ]
+}
